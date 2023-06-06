@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container-left {
+    display: inline-block;
+    margin: 381px 0 0 136px;
+    width: 60%;
+    padding-left: 90px;
+}
+
+h1 {
+    width: 368px;
+    height: 160px;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 80px;
+    color: #5D5D7D;
+}
+
+p {
+    width: 540px;
+    height: 144px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    color: #5D5D7D;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    margin: 15px 0px;
+}
+
+button {
+    width: 269px;
+    height: 62px;
+    background: #9499EA;
+    box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+    border-radius: 20%;
+    border: none;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+button:active {
+    opacity: .5;
+}
+
+.container-right {
+    display: inline-block;
+    position: absolute;
+    background: rgba(93, 93, 125, 0.16);
+    margin-top: 1px;
+    height: 100%;
+    width: 35%;
+}
+
+a {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 41px;
+    color: #5D5D7D;
+    opacity: 1;
+    display: inline-block;
+    margin-top: 24px;
+    margin-left: 57px;
+    cursor: pointer;
+}
+
+a:nth-child(2) {
+    opacity: 0.4;
+}
+
+img {
+    position: relative;
+    top: 20%;
+    right: 138px;
+    bottom: 124px;
+    height: 562px;
+    width: 456px;
+}
+
+@media screen and (max-width: 900px) {
+    .container-left {
+        display: block;
+        width: 100%;
+        height: 50vh;
+        position: static;
+        margin: 0px;
+    }
+
+    h1 {
+        width: 268px;
+        font-size: 36px;
+        line-height: 52px;
+        text-align: center;
+        margin: 58px 54px;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    button {
+        margin: auto 120px;
+    }
+
+    .container-right {
+        display: block;
+        width: 100%;
+        height: 50vh;
+
+    }
+
+    img {
+        margin: none;
+        width: 90%;
+        align-self: center;
+        position: auto;
+        margin: auto;
+    }
+
+    a {
+        display: none;
+    }
+}
