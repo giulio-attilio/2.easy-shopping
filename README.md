@@ -1,6 +1,5 @@
 <h1 align="center">Easy Shopping</h1>
 <br>
-<br>
 <p>This project was my second one, and was a personal evolution regarding the first. It was done use @media queries to make it responsive.</p>
 <br>
 <br>  
